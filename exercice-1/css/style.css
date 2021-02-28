@@ -1,0 +1,9 @@
+header{
+    
+}
+
+.banner{
+    background: #fff url(../img/number-1.jpg) no-repeat center;
+    height: 500px;
+    background-size: cover;
+}
