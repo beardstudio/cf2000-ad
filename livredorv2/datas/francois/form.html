@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name="last-modified" content="DD-MM-YYYY"/>
+    <meta name="language" content="en" />
+    <link rel="canonical" href="">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!--SEO-->
+    <meta name="robots"                     content="index, follow, noodp, noydir, notranslate, noarchive">
+    <meta name="description"                content="missingvalue">
+    <meta name="keywords"                   content="missingvalue">
+
+    <!--Facebook-->
+    <meta property="og:title"               content="missingvalue" />
+    <meta property="og:url"                 content="missingvalue" />
+
+    <link rel="stylesheet" type="text/css" href="xxx.css" />
+    <script defer type="text/javascript" src="xxx.js"></script>
+</head>
+<body>
+    <form method="POST" action="">
+        <fieldset>
+            <legend>form for the signup</legend>
+            <div>
+                <label for="firstname" hidden>First name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First name" maxlength="10" required>
+            </div>
+            <div>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last name" maxlength="255" required>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail" placeholder="E-mail *" maxlength="100" required>
+                <input type="color">
+                <input type="date">
+            </div>
+            <div>
+                <label for="radiocake">
+                    <input type="radio" name="test" id="radiocake" value="cheese cake" checked> cheese cake
+                </label>
+                <label for="radiobanane">
+                    <input type="radio" name="test" id="radiobanane" value="banane"> banane
+                </label>
+            </div>
+            <div>
+                <div class="select lang">
+                    <label for="language">your language preference
+                        <select id="language" name="signup_custom_values_language_custom" required>
+                            <option value="" selected>Language preference *</option>
+                            <option value="6">English</option>
+                            <option value="1">Bulgarian</option>
+                            <option value="2">Croatian</option>
+                            <option value="3">Czech</option>
+                            <option value="4">Danish</option>
+                            <option value="5">Dutch</option>
+                            <option value="7">Estonian</option>
+                            <option value="8">Finnish</option>
+                            <option value="9">French</option>
+                            <option value="10">German</option>
+                            <option value="11">Greek</option>
+                            <option value="12">Hungarian</option>
+                            <option value="13">Irish</option>
+                            <option value="14">Italian</option>
+                            <option value="15">Latvian</option>
+                            <option value="16">Lithuanian</option>
+                            <option value="17">Maltese</option>
+                            <option value="18">Polish</option>
+                            <option value="19">Portuguese</option>
+                            <option value="20">Romanian</option>
+                            <option value="21">Slovak</option>
+                            <option value="22">Slovene</option>
+                            <option value="23">Spanish</option>
+                            <option value="24">Swedish</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div style="display: inline;">
+                    <input id="checkbox-field" name="signup_custom_values_gdpr_custom" type="checkbox" value="" required>
+                    <label for="checkbox-field">
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium enim laudantium velit!
+                        </small>
+                    </label>
+                </div>
+
+                <div style="display: inline;">
+                    <input id="checkbox-field-1" name="signup_custom_values_gdpr_custom" type="checkbox" value="" required>
+                    <label for="checkbox-field-1">
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium enim laudantium velit!
+                        </small>
+                    </label>
+                </div>
+                
+                
+                <span>* Mandatory fields</span>
+            </div>
+            <div>
+                <label for="radio-field">
+                    <small>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium enim laudantium velit!
+                    </small>
+                    <input id="radio-field" name="signup_custom_values_gdpr_custom" type="radio" value="" checked required>
+                </label>
+                <span class="mandatory">* Mandatory fields</span>
+            </div>
+            <div>
+                <button type="submit" name="commit">Yes, I'm in!</button>
+                <button type="reset" name="commit">reset</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

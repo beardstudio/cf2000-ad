@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informations complémentaires</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Informations complémentaires</h1>
+        <h2>Instructions SQL pour les bases de données</h2>
+        <p>Il existe plusieurs commandes pour manipuler les bases de données, par exemple :</p>
+        <ul>
+            <li><strong>SELECT</strong> nom, commentaire FROM messages ORDER BY date DESC</li>
+            <li><strong>INSERT INTO</strong> messages(nom, commentaire, genre, date) VALUES('Marie', 'Bonjour,...', 1, CURRENT_TIMESTAMP)</li>
+            <li><strong>UPDATE</strong> messages SET email = 'marie.dufour@cf2m.be' WHERE id=4</li>
+            <li><strong>DELETE FROM</strong> messages WHERE id=5</li>
+        </ul>
+        <h3>Retour sur la page d'accueil</h3>
+        <p>Pour voir sur une page web l'utilisation du SQL, vous pouvez <a href="index.php">tester notre formulaire</a>.</p>
+    </body>
+</html>

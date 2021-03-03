@@ -1,0 +1,14 @@
+/* Ajouter un style au titre principal (balise H1) */
+h1 {
+    color: red;
+}
+
+/* Modifier la couleur de fond du navigateur */
+body {
+    background-color: lightgrey;
+}
+
+/* Modifier la couleur des liens */
+a {
+    color: black;
+}
