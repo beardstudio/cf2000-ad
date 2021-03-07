@@ -1,9 +1,100 @@
+:root {
+    --main-bg-color: brown;
+    --link-txt-color: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+}
+
 header{
-    
+    background-image: linear-gradient(to top, #051937, #0b2a4d, #0f3d64, #10507c, #0e6594);
+
+}
+
+header .max-width{
+    display: flex;
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+header img{
+    width: 60px;
+}
+
+header .heading-1{
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+header nav ul a{
+    display: block;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: var(--link-txt-color);
+}
+
+footer a{
+    color: var(--link-txt-color);
+}
+
+main{
+    position: relative;
 }
 
 .banner{
-    background: #fff url(../img/number-1.jpg) no-repeat center;
+    background: url(../img/number-1.jpg) no-repeat center;
     height: 500px;
     background-size: cover;
+    position: relative;
+}
+
+.banner h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.quote{
+
+}
+
+.quote h2{
+    padding: 0;
+    margin: 0;
+}
+
+.quote h2 blockquote{
+    padding: 0;
+    margin: 0;
+}
+
+.services{
+
+}
+
+.contact{
+
 }

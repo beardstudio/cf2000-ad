@@ -28,7 +28,7 @@ if (!empty($_POST)) {
     $leMessage = htmlspecialchars(strip_tags(trim($_POST['themessagestext'])), ENT_QUOTES);
 
     // si le captcha de Google n'a pas été coché
-    if(empty($_POST['g-recaptcha-response'])||strlen($_POST['g-recaptcha-response'])!=462){
+    if(empty($_POST['g-recaptcha-response'])){
         $erreur = "Etes-vous un robot?";
 
     // on vérifie si au moins un de nos résultat est vide    
